@@ -1,0 +1,99 @@
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc4;
+}
+.principal_title {
+    font-size: 1.5rem;
+    color: blue;
+    margin-bottom: 1.5em;
+}
+.principal_title_span {
+    color: black;
+}
+.card {
+    width: 100%;
+    max-width: 230px;
+    border-radius: 0.7em;
+    background: hsl(228, 86%, 14%);
+    padding: 1.5em;
+}
+.card_header {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1;
+}
+.card_principal_img {
+    position: absolute;
+    width: 100%;
+    border-radius: 0.5em;
+}
+.card_title {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 1.5em;
+}
+.card_text {
+    color: gray;
+    font-size: 0.8rem;
+}
+.card_items_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+}
+.card_items {
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+    margin-bottom: 0.8em;
+}
+.card_ethereum_icon {
+    width: 9px;
+}
+.card_clock_icon {
+    width: 15px;
+}
+.card_eth_span {
+    color: aqua;
+    font-size: 0.8rem;
+}
+.card_days_span {
+    color: white;
+    font-size: 0.7rem;
+}
+.line {
+    border-color: #ccc4;
+    margin-bottom: 0.8em;
+}
+.card_footer_container {
+    display: flex;
+    padding-left: 0;
+}
+
+.card_footer_avatar {
+    display: flex;
+    align-items: center;
+
+}
+.avatar_image {
+    width: 30px;
+    aspect-ratio: 1;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+.card_creation_span {
+    color: gray;
+    font-size: 0.9rem;
+
+}
+.card_jules_span {
+    color: white;
+    font-size: 0.7rem;
+}
